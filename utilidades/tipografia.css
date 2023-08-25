@@ -1,13 +1,65 @@
-.texto-grande{
-    font-size: 64px;
-    line-height:1.125;
-    font-family:'Poppins';
+
+.font-pp1{
+    font: 400 0.75rem/1.35 'Poppins', sans-serif;
+}
+.font-pp2{
+    font: 400 0.875rem/1.43 'roboto', sans-serif;
+}
+.font-p1{
+    font: 400 1rem/1.5 'Poppins', sans-serif;
+}
+.font-p2{
+    font: 400 1rem/1.5 'roboto', sans-serif;
+}
+.font-m1,
+.font-m1-b{
+    font: 500 1.125rem/1.35 'Poppins', sans-serif;
+}
+.font-m1-b{
     font-weight: 600;
 }
+.font-m2{
+    font: 500 1.125rem/1.35 'roboto', sans-serif ;
+}
+.font-g1{
+    font: 400 1.5rem/1.5 'Poppins', sans-serif;
+}
+.font-g2,
+.font-g2-b{
+    font: 400 1.5rem/ 1.5 'roboto', sans-serif;
+}
+.font-g2-b{
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+.font-gg1{
+    font: 600 2rem/1.125 'Poppins', sans-serif;
+}
+.font-gg2{
+    font: 500 2rem/1.25 'roboto', sans-serif;
+}
+.font-gg3{
+    font: 400 1.5rem/1.5 'roboto', sans-serif;
+}
+.font-gg4{
+    font: 600 4rem/1.125 'Poppins', sans-serif;
+}
 
-.texto-medio{
-    font-size: 24px;
-    line-height: 1.5;
-    font-family: 'roboto';
-    font-weight: 400;
+@media (max-width:1200px){
+    .font-gg4{
+        font-size: 3rem; 
+    }
+    .font-gg3{
+        font-size: 1.125rem;
+    }
+}
+@media (max-width:800px){
+   .font-gg3{
+    font-size: 2rem;
+   }
+   .font-gg1,
+   .font-gg2{
+    font-size: 1.5rem;
+   }
 }
