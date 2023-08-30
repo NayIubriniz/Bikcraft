@@ -14,3 +14,6 @@
 
 /*Utilidades*/
 @import "css/utilidades/componente.css";
+
+/*Tecnologia*/
+@import "./css/home/tecnologia.css";
