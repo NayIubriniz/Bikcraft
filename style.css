@@ -1,7 +1,8 @@
+/*global*/
 @import "./css/global/global.css";
+@import"./css/global/header.css";
+@import "./css/global/footer.css";
 
-
-/*colors*/
 
 
 
@@ -18,7 +19,6 @@
 /*Utilidades*/
 @import"css/utilidades/componente.css";
 @import"./css/utilidades/cores.css";
-@import"./css/global/header.css";
 @import"./css/utilidades/tipografia.css";
 
 
