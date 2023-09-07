@@ -15,6 +15,13 @@
 @import "/css/home/depoimento.css";
 
 
+/*Contato*/
+@import "./css/contato/contato.css";
+@import "./css/contato/loja.css";
+
+/*formulario*/
+@import "./css/utilidades/formulario.css";
+
 /*Seguros*/
 @import "./css/Seguros/seguros.css";
 @import "./css/Seguros/vantagens.css";
