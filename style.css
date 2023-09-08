@@ -19,6 +19,9 @@
 @import "./css/contato/contato.css";
 @import "./css/contato/loja.css";
 
+/*Orçamento*/
+@import "./css/orçamento/orcamento.css";
+
 /*formulario*/
 @import "./css/utilidades/formulario.css";
 
