@@ -76,6 +76,9 @@ transition: transform 0.2s;
     padding-bottom: 60px;
     background-color: var(--cor-11);
 }
+.titulo{
+    background: url(../../img/dec/bottom-right.svg) no-repeat top right 20px;
+}
 .titulo p{
     margin-bottom: 4px;
 }
