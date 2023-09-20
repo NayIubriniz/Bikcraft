@@ -8,10 +8,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;1,400&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-        <link rel="preload" href="style.css" as="style">
+       
+        <link rel="preload" href="style.css" as="style"> <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="style.css">
     
-</head>
+ <script>
+        document.documentElement.classList.add('js')
+    </script>
 <body id="seguros">
    <header class="header-bg">
     <div class="header container">
@@ -35,7 +38,7 @@
           </div>
 
             <div class="seguros container">
-                <div class="seguros-item">
+                <div class="seguros-item fadeInLeft" data-anime="200">
                     <h3 class="font-gg1 color-4">PRATA</h3>
                     <span class="font-gg1 color-1">R$ 199 <span class="font-pp1 color-4">mensal</span></span>
                     <ul class="font-m2 color-0">
@@ -47,7 +50,7 @@
                     <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
                 </div>
         
-                <div class="seguros-item">
+                <div class="seguros-item fadeInRight" data-anime="800">
                     <h3 class="font-gg1 cor-p1">OURO</h3>
                     <span class="font-gg1 color-1">R$ 299 <span class="font-pp1 color-4">mensal</span></span>
                     <ul class="font-m2 color-0">
@@ -182,6 +185,7 @@
         <p class=" footer-copy font-m2 color-3">Bikcraft &COPY; alguns direitos reservados.</p>
     </div>
 </footer>
+<script src="js/plugins/simple-anime.js"></script>
 <script src="./js/script.js"></script>
 </body>
 </html>
